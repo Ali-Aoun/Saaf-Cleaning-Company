@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  
+  .bg-img {
+    background-image: url("/assests/images/banner/slider1.jpg");
+    min-height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  body{
+    font-family: montserrat;
+    min-height: 100vh;
+    text-align: center;
+  }
+
+  nav{
+    background: #03873381;
+    height: 80px;
+    width: 100%;
+  }
+  nav .logo{
+    float:left;
+}
+
+nav .logo img{
+    height: 80px;
+    transition: .5s;
+}
+nav ul{
+    float:right;
+    margin:0;
+    padding: 0;
+    display:flex;
+
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    line-height: 80px;
+    color: white;
+    padding: 8px 20px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .5s;
+}
+nav ul li a.active,
+nav ul li a:hover
+{
+    color: rgb(223, 243, 252);
+    background: rgb(183, 232, 247);
+
+}
+
+
+h1,h2,h3,h4,h5 {
+  text-align: center;
+}
+img {
+  align-content: center;
+}
+
+.imgcenter{
+  
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+html{
+  scroll-behavior: smooth;
+}
